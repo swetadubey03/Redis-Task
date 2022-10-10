@@ -4,7 +4,7 @@
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "redis": "^4.3.1"
+    "redis": "^3.0.0"
   },
   "name": "redis_task",
   "version": "1.0.0",
@@ -13,7 +13,7 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
